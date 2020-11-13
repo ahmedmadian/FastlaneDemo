@@ -1,0 +1,39 @@
+  desc "Create app on deleveper Portal and App Store Connect"
+  lane :create_app do
+	create_app_online #produce
+  end
+
+platform :ios do
+
+  desc "Sync Signing"
+  lane :signing do
+  end
+
+  desc "Build Binary"
+  lane :build do
+  end
+
+  desc "Release Binary"
+  lane :release do
+  end
+
+end
+
+
+platform :mac do
+
+  desc "Sync Signing"
+  lane :signing do
+  end
+
+  desc "Build Binary"
+  lane :build do
+  end
+
+  desc "Release Binary"
+  lane :release do
+  end
+
+end
+
+
